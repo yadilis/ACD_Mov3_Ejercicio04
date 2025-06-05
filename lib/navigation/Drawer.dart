@@ -15,7 +15,7 @@ class MiDrawer extends StatelessWidget {
           DrawerHeader(child: Column(
             children: [
               Text("Titulo"),
-              Expanded(child: Image.network("https://images.pexels.com/photos/39811/pexels-photo-39811.jpeg?auto=compress&cs=tinysrgb&w=600"))
+              Expanded(child: Image.network("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjMHkPy3YKiM41zbLgbryX7ceYA4KlAfvZ1Q&s"))
             ],
           )),
           
@@ -24,7 +24,7 @@ class MiDrawer extends StatelessWidget {
           ListTile(
             title:Row(
               children: [
-                Icon(Icons.filter_1),
+                Icon(Icons.calculate),
               Text("Calculadora 1"),
               ],
             ) ,
@@ -34,7 +34,7 @@ class MiDrawer extends StatelessWidget {
           ListTile(
             title:Row(
               children: [
-                Icon(Icons.filter_2),
+                Icon(Icons.functions),
               Text("Calculadora 2"),
               ],
             ) ,
@@ -45,7 +45,7 @@ class MiDrawer extends StatelessWidget {
           ListTile(
             title:Row(
               children: [
-                Icon(Icons.filter_3_outlined),
+                Icon(Icons.savings),
                 Text("Simulador"),
               ],
             ),
